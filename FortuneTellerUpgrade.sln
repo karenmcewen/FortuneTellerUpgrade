@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortuneTellerUpgrade", "FortuneTellerUpgrade\FortuneTellerUpgrade.csproj", "{2221B418-9527-432D-92B0-A7E5502F6608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E658C8B1-2CF5-4E5D-A06E-58238E2357AB}"
+	ProjectSection(SolutionItems) = preProject
+		Requirements.txt = Requirements.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2221B418-9527-432D-92B0-A7E5502F6608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2221B418-9527-432D-92B0-A7E5502F6608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2221B418-9527-432D-92B0-A7E5502F6608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2221B418-9527-432D-92B0-A7E5502F6608}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
