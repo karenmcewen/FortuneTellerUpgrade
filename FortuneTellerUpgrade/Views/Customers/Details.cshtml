@@ -10,22 +10,7 @@
     <h4>Customer</h4>
     <hr />
     <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Color.Color1)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Color.Color1)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Month.Month1)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Month.Month1)
-        </dd>
-
+     
         <dt>
             @Html.DisplayNameFor(model => model.FirstName)
         </dt>
@@ -51,6 +36,21 @@
         </dd>
 
         <dt>
+            @Html.DisplayNameFor(model => model.Color.Color1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Color.Color1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Month.Month1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Month.Month1)
+        </dd>
+ <dt>
             @Html.DisplayNameFor(model => model.NumSibs)
         </dt>
 
@@ -59,7 +59,13 @@
         </dd>
 
             </dl>
+    <!--THIS IS THE FORTUNE - need to create viewbags for each component 
+        once the logic in the controller is working correctly         -->
+    <h3>YOUR FORTUNE</h3>
     <p>You will retire in @ViewBag.NumberYearsToRetirement years!</p>
+    <p>You will live in -- </p>
+    <p>You will have $--dollars</p>
+    <p>You will have a -- for transportation</p>
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.CustomerID }) |

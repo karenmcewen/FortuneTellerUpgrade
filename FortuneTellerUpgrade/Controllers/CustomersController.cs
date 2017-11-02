@@ -50,11 +50,96 @@ namespace FortuneTellerUpgrade.Controllers
             }
             ViewBag.NumberYearsToRetirement = retireYears;
 
+            //BIRTH MONTH
+            //ERROR - because I allowed nulls in the initial database, it input as int? which 
+            //cannot be implicitly converted to an int, causing an error.
+            //ALSO change to viewbags for view
+
+            //int retireMoolah = 0;
+
+            //int birthMonth = customer.MonthID;
+
+            //if (birthMonth >= 1 && birthMonth <= 4)
+            //{
+            //    retireMoolah = 1000;
+            //}
+            //else if (birthMonth >= 5 && birthMonth <= 8)
+            //{
+            //    retireMoolah = 500000000;
+            //}
+            //else 
+            //{
+            //    retireMoolah = 250000;
+            //}
 
 
-            //+++++++++++++++++++++++++++++++++++++++++++
-            //This is at the end of all the logic to return to the view!
-            return View(customer);
+            //FAVORITE COLOR - need to convert to int numbers (not nullable)
+            //and change to viewbags for view
+            //switch (favColor.ToLower())
+            //{
+            //    case "red":
+            //        modeTransport = "ferrari";
+            //        break;
+
+            //    case "orange":
+            //        modeTransport = "scooter";
+            //        break;
+
+            //    case "yellow":
+            //        modeTransport = "hot air balloon";
+            //        break;
+
+            //    case "green":
+            //        modeTransport = "horse";
+            //        break;
+
+            //    case "blue":
+            //        modeTransport = "sailboat";
+            //        break;
+
+            //    case "indigo":
+            //        modeTransport = "spaceship";
+            //        break;
+
+            //    case "violet":
+            //        modeTransport = "chauffeured limosine";
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("\nWhether you are a poor speller, or you didn't follow the directions, \nthe fates are not amused.");
+            //        modeTransport = "motorized wheelchair with a broken down battery";
+            //        break;
+
+
+            //NUMBER OF SIBLINGS
+            //if (numSibs < 0)
+            //{
+            //    Console.WriteLine("\nHa, ha, where did you bury the bodies?");
+            //    vacationHome = "antarctica";
+            //}
+            //else
+            //{
+            //    switch (numSibs)
+            //    {
+            //        case 0:
+            //            vacationHome = "Costa Rica";
+            //            break;
+
+            //        case 1:
+            //            vacationHome = "Put-in-Bay";
+            //            break;
+            //        case 2:
+            //            vacationHome = "London";
+            //            break;
+            //        case 3:
+            //            vacationHome = "Arizona";
+            //            break;
+            //        default:
+            //            vacationHome = "the Zoo";
+            //            break;
+                        //+++++++++++++++++++++++++++++++++++++++++++
+                        //This is at the end of all the logic to return to the view!
+                        return View(customer);
         }
         //------------------------------------------------------------
         // GET: Customers/Create
